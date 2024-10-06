@@ -6,12 +6,12 @@ import PlusYellow from "../../assets/svg/plus-yellow.svg"
 export default function StripsLabel() {
   return (
     <>
-      <div className="absolute w-full left-0 bottom-8 sm:bottom-16 md:bottom-20 lg:bottom-28">
+      <div className="absolute w-full left-0 bottom-8 sm:bottom-16 md:bottom-20 lg:bottom-28 -rotate-6 ">
         <div className="relative w-[110%] left-1/2 -translate-x-1/2">
           <Marquee
             gradient={false}
             speed={80}
-            className="bg-black font-bold -rotate-6 overflow-hidden"
+            className="bg-black font-boldoverflow-hidden"
           >
             {[...Array(12)].map((_, index) => (
               <div
@@ -25,12 +25,12 @@ export default function StripsLabel() {
           </Marquee>
         </div>
       </div>
-      <div className="absolute w-full left-0 bottom-8 sm:bottom-16 md:bottom-20 lg:bottom-28">
+      <div className="absolute w-full left-0 bottom-8 sm:bottom-16 md:bottom-20 lg:bottom-28 rotate-6 ">
         <div className="relative w-[110%] left-1/2 -translate-x-1/2">
           <Marquee
             gradient={false}
             speed={80}
-            className="bg-yellow-400 rotate-6 overflow-hidden"
+            className="bg-yellow-400 overflow-hidden"
           >
             {[...Array(12)].map((_, index) => (
               <div
